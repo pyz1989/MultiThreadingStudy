@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Task_任务的延续和阻塞", "08_Task_任务的延续和阻塞\08_Task_任务的延续和阻塞.csproj", "{B8FBBE3C-2CD3-4AE3-8A2C-1CC551B8A331}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Thread_线程开销", "01_Thread_线程开销\01_Thread_线程开销.csproj", "{C82DF5E3-5379-425A-8F54-2F1793CC8474}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Task_任务启动方式", "07_Task_任务启动方式\07_Task_任务启动方式.csproj", "{D28CF4C0-E68D-412E-B865-7BCED0E88FC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Thread_生命周期管理", "02_Thread_生命周期管理\02_Thread_生命周期管理.csproj", "{71DC3763-8C25-484D-BEC1-F76040686BA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Thread_线程开销", "01_Thread_线程开销\01_Thread_线程开销.csproj", "{F1CE27D3-4CD8-4EE8-91B0-A681AB5BB1C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Task_任务启动方式", "07_Task_任务启动方式\07_Task_任务启动方式.csproj", "{DF87CBA5-4F1E-4768-88EC-90BC3A80F89B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Thread_生命周期管理", "02_Thread_生命周期管理\02_Thread_生命周期管理.csproj", "{283A9073-83FE-4707-A8D0-1605210F6AD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Task_任务的延续和阻塞", "08_Task_任务的延续和阻塞\08_Task_任务的延续和阻塞.csproj", "{380844C4-D63A-4185-BC6D-198B717C2BC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8FBBE3C-2CD3-4AE3-8A2C-1CC551B8A331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8FBBE3C-2CD3-4AE3-8A2C-1CC551B8A331}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8FBBE3C-2CD3-4AE3-8A2C-1CC551B8A331}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8FBBE3C-2CD3-4AE3-8A2C-1CC551B8A331}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D28CF4C0-E68D-412E-B865-7BCED0E88FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D28CF4C0-E68D-412E-B865-7BCED0E88FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D28CF4C0-E68D-412E-B865-7BCED0E88FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D28CF4C0-E68D-412E-B865-7BCED0E88FC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1CE27D3-4CD8-4EE8-91B0-A681AB5BB1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1CE27D3-4CD8-4EE8-91B0-A681AB5BB1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1CE27D3-4CD8-4EE8-91B0-A681AB5BB1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1CE27D3-4CD8-4EE8-91B0-A681AB5BB1C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{283A9073-83FE-4707-A8D0-1605210F6AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{283A9073-83FE-4707-A8D0-1605210F6AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{283A9073-83FE-4707-A8D0-1605210F6AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{283A9073-83FE-4707-A8D0-1605210F6AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82DF5E3-5379-425A-8F54-2F1793CC8474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82DF5E3-5379-425A-8F54-2F1793CC8474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82DF5E3-5379-425A-8F54-2F1793CC8474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82DF5E3-5379-425A-8F54-2F1793CC8474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DC3763-8C25-484D-BEC1-F76040686BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DC3763-8C25-484D-BEC1-F76040686BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DC3763-8C25-484D-BEC1-F76040686BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DC3763-8C25-484D-BEC1-F76040686BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF87CBA5-4F1E-4768-88EC-90BC3A80F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF87CBA5-4F1E-4768-88EC-90BC3A80F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF87CBA5-4F1E-4768-88EC-90BC3A80F89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF87CBA5-4F1E-4768-88EC-90BC3A80F89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380844C4-D63A-4185-BC6D-198B717C2BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380844C4-D63A-4185-BC6D-198B717C2BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380844C4-D63A-4185-BC6D-198B717C2BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380844C4-D63A-4185-BC6D-198B717C2BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

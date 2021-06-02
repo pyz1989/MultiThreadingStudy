@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace _02_Thread_生命周期管理
 {
-    public partial class FrmMain : Form
+    public partial class Main : Form
     {
-        public FrmMain()
+        public Main()
         {
             InitializeComponent();
         }
@@ -48,6 +48,7 @@ namespace _02_Thread_生命周期管理
 
         }
 
+        [Obsolete]
         private void btnSuspend_Click(object sender, EventArgs e)
         {
             if (null != thread && thread.ThreadState == ThreadState.Running || thread.ThreadState == ThreadState.WaitSleepJoin)
@@ -56,6 +57,7 @@ namespace _02_Thread_生命周期管理
             }
         }
 
+        [Obsolete]
         private void btnResume_Click(object sender, EventArgs e)
         {
             if (null != thread && thread.ThreadState == ThreadState.Suspended)

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("02_Thread_生命周期管理")]
+[assembly: AssemblyTitle("01_Thread_线程开销")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("02_Thread_生命周期管理")]
+[assembly: AssemblyProduct("01_Thread_线程开销")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("71dc3763-8c25-484d-bec1-f76040686ba6")]
+[assembly: Guid("c82df5e3-5379-425a-8f54-2f1793cc8474")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

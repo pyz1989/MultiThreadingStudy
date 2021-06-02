@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -27,7 +30,6 @@ namespace _08_Task_任务的延续和阻塞
      *  介绍Task的7种阻塞方式 +  延续 
      *  学打组合拳，Task异步任务会写的非常漂亮
      */
-
     class Program
     {
         static void Main(string[] args)
@@ -193,10 +195,10 @@ namespace _08_Task_任务的延续和阻塞
             task2.Start();
 
             Task.Factory.ContinueWhenAll(new Task[] { task1, task2 }, (task) =>
-             {
-                 // 执行“工作线程-3”的内容
-                 Console.WriteLine($"我是工作线程-3, {DateTime.Now}");
-             });
+            {
+                // 执行“工作线程-3”的内容
+                Console.WriteLine($"我是工作线程-3, {DateTime.Now}");
+            });
         }
 
         public static void Demo_7()

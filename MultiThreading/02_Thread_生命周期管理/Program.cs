@@ -16,7 +16,7 @@ namespace _02_Thread_生命周期管理
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain());
+            Application.Run(new Main());
         }
     }
 }
